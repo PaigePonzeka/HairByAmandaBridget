@@ -1,0 +1,7 @@
+:root {--error-color: red;--success-color: green;--warning-color: orange;--warning-bg-color: yellow;}
+.yext-scan-error {color: red;font-weight: var(--error-color);font-size: 16px;}
+.yext-scan-warning {color: var(--error-color);font-weight: bold;font-size: 16px;}
+.yext-scan-success {color: var(--success-color);font-size: 16px;}
+.yext-scan-badge {background: #fff;border: 1px solid #333;border-radius: 20px;padding: 5px 10px;}
+.yext-scan-badge.warning {border-color: var(--error-color);background: var(--warning-bg-color);}
+.yext-scan-form input {margin-bottom: 5px;}
